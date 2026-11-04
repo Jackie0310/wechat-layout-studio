@@ -4,6 +4,16 @@
 
 用于微信公众号文章结构整理与 HTML 排版的 Skill 和浏览器编辑组件。维护者：**Jackie0310**。项目沿用原包中文名称“公众号智排工作室”。
 
+## 团队与分工
+
+本项目由以下三位成员共同开发：
+
+| 成员 | GitHub | 分工 |
+| --- | --- | --- |
+| Jackie0310 | [@Jackie0310](https://github.com/Jackie0310) | 微信排版框架设计、Skill 集成 |
+| 小许 | [@xlisses](https://github.com/xlisses) | 代码封包等技术工作 |
+| 馨月 | [@Liangxinyue775](https://github.com/Liangxinyue775) | 视觉设计 |
+
 ## 当前包含什么
 
 - `SKILL.md`、agent 元数据及结构、排版规则，供支持此类 Skill 的助手参考。

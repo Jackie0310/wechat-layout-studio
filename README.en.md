@@ -4,6 +4,16 @@ English | [中文](README.md)
 
 A Skill and browser editing component for structuring WeChat Official Account articles and producing HTML layouts. Maintained by **Jackie0310**. The original Chinese product name is 公众号智排工作室.
 
+## Team and responsibilities
+
+This project is developed jointly by the following three team members:
+
+| Member | GitHub | Responsibilities |
+| --- | --- | --- |
+| Jackie0310 | [@Jackie0310](https://github.com/Jackie0310) | WeChat layout framework design and Skill integration |
+| 小许 | [@xlisses](https://github.com/xlisses) | Code packaging and related technical work |
+| 馨月 | [@Liangxinyue775](https://github.com/Liangxinyue775) | Visual design |
+
 ## Included
 
 - A `SKILL.md`, agent metadata, and structure/layout references for compatible assistant hosts.
