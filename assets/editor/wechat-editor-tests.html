@@ -1,0 +1,5 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><title>公众号 AI 排版器验收测试</title><style>body{font:15px/1.6 system-ui;margin:30px;color:#18343a}li{margin:8px 0;padding:10px;border-radius:8px;background:#f3f7f7}.ok{color:#08766c}.bad{color:#c33}</style></head>
+<body><h1>公众号智排工作室 Test A–G</h1><ol id="results"></ol><script src="wechat-editor.js"></script><script>var out=document.getElementById('results');var results=window.WechatLayoutEngine.runAcceptanceTests();results.forEach(function(r){var li=document.createElement('li');li.className=r.pass?'ok':'bad';li.textContent=(r.pass?'PASS ':'FAIL ')+r.name+' — '+r.detail;out.appendChild(li)});document.title=(results.every(function(r){return r.pass})?'PASS':'FAIL')+' · 公众号智排工作室验收测试';</script></body>
+</html>
