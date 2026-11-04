@@ -1,0 +1,25 @@
+# Secrets and private inputs
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+private/
+user-data/
+
+# Local/generated files
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+*.zip
+wechat-editor-debug.json
+rendered.html
+work/
