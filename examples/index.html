@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>WeChat Layout Studio · 本地示例</title>
+  <link rel="stylesheet" href="../assets/editor/wechat-editor.css">
+  <style>
+    :root{--muted:#64748b;--ink2:#334155;--warn:#92400e;--warn-l:#fef3c7;--danger:#b91c1c;--danger-l:#fee2e2}
+    *{box-sizing:border-box}body{margin:20px;font:15px/1.6 system-ui,sans-serif;background:#f7f8fa;color:#23313f}h2,h3{margin:0}
+    input,textarea,select,button{font:inherit}textarea,input,select{max-width:100%;padding:9px;border:1px solid #d7e0e7;border-radius:6px}textarea{width:100%}
+    button,.btn{cursor:pointer;border:1px solid #d7e0e7;border-radius:6px;background:#fff;padding:8px 12px}.primary{background:#146a78;color:#fff}.spacer{flex:1}.hide{display:none!important}
+    .mask{position:fixed;inset:0;z-index:100;background:#0008;display:flex;align-items:center;justify-content:center}.modal{background:#fff;border-radius:12px;padding:20px;overflow:auto;max-height:92vh}.macts{display:flex;justify-content:flex-end;gap:8px;margin:12px 0}
+    .wx-toast{display:none;position:fixed;bottom:24px;left:24px;z-index:200;padding:12px;background:#23313f;color:#fff;border-radius:8px}.wx-toast.on{display:block}
+  </style>
+</head>
+<body>
+  <p>本地示例：不填写 API Key 即使用本地规则。此静态页面不提供 AI 代理服务。请使用自己的文章与有权使用的可信模板。</p>
+  <div id="wechatEditorRoot"></div>
+  <div id="modalHost"></div>
+  <script src="../assets/editor/wechat-editor.js"></script>
+</body>
+</html>
